@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping tags</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: darkgray;
+        }
+
+        header {
+            background-color: aliceblue ;
+            padding: 10px;
+            margin: 10px;
+
+        }
+        
+        nav {
+            background-color: lightgrey;
+            padding: 3px;
+            list-style-type: none;
+            box-shadow: 8px 8px 12px rgba(0, 0, 0, 0.326);
+        }
+
+        nav > a {
+            background-color: rgb(231, 231, 101);
+            padding: 3px 3px;
+            text-decoration: none;
+            font-weight: bold;
+            margin-right: 30px;
+        }
+
+        nav > a:hover {
+            text-decoration: underline;
+        }
+
+        main {
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+        }
+
+        article {
+                background-color: bisque;
+                padding: 1px 1px;
+        }
+
+        article > aside {
+            background-color: beige;
+        }
+
+        #noticias {
+            background-color: rgb(146, 138, 125);
+        }
+
+        aside {
+            background-color: brown;
+            padding: 3px 3px;
+        }
+
+        footer {
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 5px;
+            margin: 0px;
+        }
+
+        footer > p {
+            margin: 0px;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Meu site</h1>
+
+        <nav>
+            <a href="#1">Página Inicial</a>
+            <a href="#2">Fralda</a>
+            <a href="#3">Câmara</a>
+            <a href="#4">Rodrigo</a>
+        </nav>
+
+    </header>
+
+    <main>
+
+        <section id="assuntos">
+            <article>
+
+                <h2>Brasil ...</h2>
+
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Corporis eaque, quia sequi beatae similique assumenda nemo nam, vel culpa exercitationem quis, saepe quisquam quibusdam! Esse deserunt eius architecto? Repellendus, aliquid.</p>
+
+            </article>
+
+        </section>
+
+        <article id="noticias">
+
+            <h2>Canadá</h2>
+
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quidem dignissimos perspiciatis aliquam, impedit veniam distinctio sint similique, nam animi provident commodi dicta ut voluptatum, maiores magni maxime sunt ea minus!</p>
+
+            <aside>
+                Eleiçoes
+            </aside>
+
+        </article>
+
+        <aside>
+            Países
+        </aside>
+
+    </main>
+
+    <footer>
+        <p>Escrito por brenda</p>
+    </footer>
+
+</body>
+</html>

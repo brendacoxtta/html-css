@@ -1,0 +1,51 @@
+@charset "UTF-8";
+
+    *{
+    font-family: Arial, Helvetica, sans-serif
+    /*fonte de todo texto */
+}
+
+body {
+    background-image: linear-gradient(to right, #EEFBFE, #CCEFF9); /*dégradê*/
+}
+
+main{
+    background-color: white; 
+    /*colore o texto*/
+
+    border-radius: 10px; 
+    /*arredonda a borda*/
+
+    box-shadow: 5px 5px 15px #4499b16e; 
+    /*sombreamento e os parâmentros: andar para o lado, andar para baixo, espalhar, cor e transparência*/
+
+    width: 600px;
+     /*largura*/
+
+    padding: 10px; 
+    /* ACOLCHUAMENTO cria uma borda (mini espaço) entre o texto*/
+
+    margin: auto; 
+    /*centraliza independente do tamanho da tela*/
+}
+
+h1 {
+    color: #59CBE9; 
+    /*cor do texto*/
+
+    text-align: center; 
+     /*formata o texto*/
+
+    text-shadow: 1px 1px 2px #295e6cae; 
+    /*sombreamento e os parâmentros: andar para o lado, andar para baixo, espalhar, cor e transparência*/
+}
+
+h2{
+    color:#9BE1F1 ; 
+    /*cor do texto*/
+
+    text-shadow: 1px 1px 2px #547a82a2;
+}
+p {
+    text-align: justify;
+}

@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Caixas do tipo box level</title>
+    <style>
+
+        /*BOX-LEVEL*/
+        h1 {
+            display: inline;
+            background-color: lightgray;
+            height: 300px;
+            width: 300px;
+
+
+            border-width: 10px;
+            border-style: solid;
+            border-color: darkslategray;
+
+            /*SHORTHAND ORDEM:
+            WIDTH, STYLE, COLOR*/
+            border: 10px solid darkslategray;
+
+
+            padding-top: 10px;
+            padding-right: 10px;
+            padding-bottom: 10px;
+            padding-left: 10px;
+
+            /*SHORTHAND ORDEM:
+            TOP, RIGHT, BOTTON, LEFT
+            (SE TODOS FOREM IGUAIS COLOQUE APENAS UM NÚMERO OU DOIS NÚMEROS SENDO O DE CIMMA E DE BAIXO) */
+            padding: 10px 10px 10px 10px;
+
+
+            margin-top: 10px;
+            margin-right: 10px;
+            margin-bottom: 10px;
+            margin-left: 10px;
+            margin: auto;
+
+            /*HORTHAND ORDEM:
+            TOP, RIGHT, BOTTOM, LEFT.
+            (começando de cima em sentido horário)
+            -PARA CENTRALIZAR: AUTO
+            */
+            margin: 20px auto 20px auto;
+
+            outline-width: 5px;
+            outline-style: dashed;
+            outline-color:black;
+
+            /*SHORTHAND ORDEM: 
+            WIDTH, STYLE, COLOR.*/
+            outline: 5px dashed salmon;
+        }
+
+
+        /*INLINE-LEVEL*/
+        a{
+            display: block;
+            /*display muda a caracteristica padrão
+            do elemento*/
+
+            border-width: 5px;
+            border-style: dashed;
+            border-color: red;
+
+            padding-top: 10px;
+            padding-right: 10px;
+            padding-bottom: 10px;
+            padding-left: 10px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Exemplo de caixa box-level</h1>
+    <p>Parágrafos também são Exemplos de box level, mas os <a href="#">links são exemplos de caisxa inline-level </a>
+    </p>
+</body>
+</html>

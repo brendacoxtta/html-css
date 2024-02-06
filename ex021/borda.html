@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bordas</title>
+    <style>
+
+        body {
+            background-color: bisque;
+        }
+
+        main {
+            flex-direction: column;
+            justify-content: center;
+            text-align: center;
+        }
+
+        div {
+            background-color: white;
+            padding: 10px 10px 10px 10px;
+            margin: 50px;
+            text-align: center;
+            box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.222);
+            display: inline-block;
+        }
+
+        #b1 {
+            border-radius: 10px;
+        }
+
+        #b2 {
+            border-radius: 10px 20px 30px 40px ;
+        }
+
+        #b3 {
+            border-radius: 10px 30px ;
+        }
+
+    </style>
+</head>
+<body>
+
+  <main>
+
+      <div id="b1">
+          <h1>Primeira borda</h1>
+          <p>border-radius: 10px;
+            arredonda as bordas <br>simétricamente de acordo com a medida
+          </p>
+      </div>
+
+      <br>
+
+      <div id="b2">
+          <h1 >Segunda borda</h1>
+          <p >border-radius: 10px 20px 30px 40px;<br> uma medida para cada vértice</p>
+      </div>
+
+      <br>
+
+      <div id="b3">
+          <h1 >Terceira borda</h1>
+          <p >border-radius: 10px 30px; arredonda aborda <br>
+             começando do canto superior esquerdo, <br> intercalando as medidas</p>
+      </div>
+
+  </main>
+</body>
+</html>
